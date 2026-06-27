@@ -84,6 +84,23 @@ button:hover{
     background: linear-gradient(to right, #e8c9fc, #e4cce7, #f7d7fe);
     color: #000000;
 }
+h3{
+    font-family: "Geist", sans-serif;
+    font-size: 0.8rem;
+    color: #000000;
+    line-height: 1.5;
+    font-weight: lighter;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+}
+b{
+    margin-right: 1rem;
+    font-family: "Geist", sans-serif;
+    background-color: #e4afeb;
+    gap: 5px;
+    padding: 5px 10px;  
+    border-radius: 10px;
+}
 
 /* FORMS  */
 .luxury-contact{
@@ -240,7 +257,7 @@ gap:0;
     margin: 0;
     background-image: url("CoverWDK-responsive.jpg");
 }
-  .fa-bars{
+.fa-bars{
     display: none;
 }
 }
