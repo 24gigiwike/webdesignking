@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* .geist-<uniquifier> {
+  font-family: "Geist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
 body{
     margin: 0;
     padding: 0;
@@ -41,4 +50,34 @@ body{
 .socials{
     display: flex;
     gap: 15px;
+    top: 50px;
+    position: absolute;
+}
+.socials a{
+    text-decoration: none;
+    color: #000000;
+}
+h1{
+    padding: 1%;
+    margin-top: 15%;
+    display: inline-block;
+    font-family: "Geist", sans-serif;
+    font-size: 2rem;
+    color: #000000;
+    line-height: 1.5;
+}
+button{
+    padding: 1rem 2rem;
+    background-color: #000000;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    font-family: "Geist", sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+button:hover{
+    background: linear-gradient(to right, #e8c9fc, #e4cce7, #f7d7fe);
+    color: #000000;
 }
