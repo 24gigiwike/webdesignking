@@ -9,6 +9,7 @@
   <meta name="twitter:image" content="https://webdesignking.online">
 
     <script src="https://kit.fontawesome.com/53480876a4.js" crossorigin="anonymous"></script>
+    <script src="file.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.25/dist/lenis.css">
 <script src="https://unpkg.com/lenis@1.3.25/dist/lenis.min.js"></script> 
@@ -49,10 +50,54 @@
                         <a href="https://youtube.com/@webdesignkinging"><i class="fa-brands fa-youtube"></i></a>
                         <a href="https://tiktok.com/@webdesignking_"><i class="fa-brands fa-tiktok"></i></a>
                         <a href="mailto:work@webdesignking.online"><i class="fa-regular fa-envelope"></i></a>
-                        <a href=""><i class="fa-solid fa-shopping-cart"></i></a>
+                        <a href="#" class="shop-trigger" onclick="openShop(event)">
+  <i class="fa-solid fa-shopping-cart"></i>
+</a>
                     </div>
                 </div>
             </div>
+
+            <!-- // Modal Shop Section -->
+          <div class="shop-overlay" id="shopModal">
+          <div class="shop-modal">
+          <button class="close-shop" onclick="closeShop()">×</button>
+          <div class="products-list">
+
+
+          <div class="product-item active" onclick="changeProduct(0)">
+          <img src="assets/product1.png">
+          <div>
+          <h4>The Client Communication Code</h4>
+          <p>Digital Ebook</p>
+          </div>
+          </div>
+          <div class="product-item" onclick="changeProduct(1)">
+          <img src="assets/product2.png">
+          <div>
+          <h4>Audit Engine<h4>
+          <p>Digital presence Audit tool</p>
+          </div>
+          </div>
+          <div class="product-item" onclick="changeProduct(2)">
+        <div>
+        </div>
+        </div>
+        </div>
+        <div class="product-details">
+        <img id="mainProductImage" src="assets/product1.png" alt="Product Image">
+        <div class="details-content">
+        <span>DIGITAL PRODUCT</span>
+        <h2 id="productTitle">The Client Communication Code</h2>
+        <p id="productDescription">A practical guide for freelancers and agencies to communicate better with clients.</p>
+        <h3 id="productPrice">Free</h3>
+        <a href="https://selar.com/7238618343" target="_blank">
+          <button class="buy-button">Buy Now →</button>
+        </a>
+        </div>
+        </div>
+        </div>
+        </div>
+
             
             <h1>Award-Winning Web Designer <br> High performance websites <br>and digital experiences <br> for brands and businesses. </h1>
             <h3><b>UI/UX</b><b>FRONTEND</b><b>CONVERSION-FOCUSED DESIGN</b></h3>
