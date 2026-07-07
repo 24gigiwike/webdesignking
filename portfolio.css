@@ -54,7 +54,7 @@
 .window-preview{
     height:100vh;
     overflow:hidden;
-    background:transparent;
+    background:#fff;
 }
 
 .window-preview iframe{
@@ -73,6 +73,7 @@
     align-items:flex-end;
     gap:2rem;
     padding:2.5rem;
+     background:#fff;
 }
 
 /* ==============================
@@ -163,9 +164,13 @@
 
     gap:.6rem;
 
+    font-weight:lighter;
+
+    font-family: "Geist", sans-serif;
+
     text-decoration:none;
 
-    color:#fff;
+    color:#000;
 
     font-size:1rem;
 
@@ -190,8 +195,12 @@
     }
 
     .window-footer{
-        display: none
-    }
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+    gap:2rem;
+    padding:2.5rem;
+}
 }
 
 @media (max-width:768px){
@@ -201,8 +210,12 @@
     }
 
     .window-footer{
-       display: none;
-    }
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+    gap:2rem;
+    padding:2.5rem;
+}
 }
 
 @media (max-width:480px){
@@ -210,4 +223,11 @@
     .window-preview{
         height:60vh;
     }
+    .window-footer{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+    gap:2rem;
+    padding:2.5rem;
+}
 }
