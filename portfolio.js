@@ -127,7 +127,7 @@ function createPortfolio() {
                         target="_blank"
                         class="project-link">
 
-                        Explore
+                        Explore Website
 
                         <span>↗</span>
 
