@@ -69,6 +69,16 @@ h1{
     color: #000000;
     line-height: 1.5;
 }
+h2{
+    padding: 1%;
+    display: inline-block;
+    font-family: "Geist", sans-serif;
+    font-size: 8rem;
+    color: #000000;
+    line-height: 1.5;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
 button{
     padding: 1rem 2rem;
     background-color: #000000;
@@ -101,6 +111,10 @@ b{
     padding: 5px 10px;  
     border-radius: 10px;
 }
+
+
+
+
 
 /* FORMS  */
 .luxury-contact{
@@ -446,5 +460,14 @@ gap:0;
 }
 .fa-bars{
     display: none;
+}
+h2{
+    padding: 1%;
+    font-family: "Geist", sans-serif;
+    font-size: 2.5rem;
+    color: #000000;
+    line-height: 1.5;
+    margin-top: 25rem;
+    margin-bottom: 1rem;
 }
 }
