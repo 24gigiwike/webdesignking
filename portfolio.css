@@ -186,42 +186,28 @@
 @media (max-width:992px){
 
     .window-preview{
-        height:100vh;
+        height:60vh;
     }
 
     .window-footer{
         display: none
     }
-    #portfolio{
-    width:100%;
-    padding:2rem 0;
-    background:transparent;}
 }
 
 @media (max-width:768px){
 
     .window-preview{
-        height:100vh;
+        height:60vh;
     }
 
     .window-footer{
        display: none;
     }
-    #portfolio{
-    width:100%;
-    padding:2rem 0;
-    background:transparent;}
 }
 
 @media (max-width:480px){
 
     .window-preview{
-        height:100vh;
+        height:60vh;
     }
-    #portfolio{
-    width:100%;
-    padding:2rem 0;
-    background:transparent;
-}
-
 }
