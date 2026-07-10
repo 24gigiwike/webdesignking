@@ -65,6 +65,14 @@ const projects = [
         category: "Brand Website",
         url: "https://growly-landingpage.vercel.app/",
         tech: ["HTML", "CSS"]
+    },
+
+    {
+        id: "09",
+        title: "Project Nine",
+        category: "Brand Website",
+        url: "https://www.molecatchgeosint.com/",
+        tech: ["HTML", "CSS"]
     }
 ];
 
